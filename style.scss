@@ -365,3 +365,30 @@ header {
     }
     background-color: rgba(229, 240, 253, 1);
 }
+.section7 {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    max-width: 1440px;
+    margin: auto;
+    height: 450px;
+    .card4 {
+        width: 340px;
+        height: 459px;
+        p {
+            font-size:20px;
+            font-weight: 600;
+        }
+        p:last-child {
+            font-size: 16px;
+            font-weight: 400;
+            color: rgba(101, 100, 100, 1);
+        }
+        div {
+            img {
+                border-radius: 14px;
+            }
+        }
+
+    }
+}

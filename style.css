@@ -312,4 +312,29 @@ header input {
 }
 .section6 {
   background-color: rgb(229, 240, 253);
+}
+
+.section7 {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  max-width: 1440px;
+  margin: auto;
+  height: 450px;
+}
+.section7 .card4 {
+  width: 340px;
+  height: 459px;
+}
+.section7 .card4 p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.section7 .card4 p:last-child {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(101, 100, 100);
+}
+.section7 .card4 div img {
+  border-radius: 14px;
 }/*# sourceMappingURL=style.css.map */
