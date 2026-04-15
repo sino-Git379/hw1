@@ -85,6 +85,8 @@ header input {
   align-items: center;
   justify-content: center;
   gap: 250px;
+  max-width: 1440px;
+  margin: auto;
 }
 .section2 p:first-child {
   color: #217BF4;
@@ -277,4 +279,37 @@ header input {
   align-items: center;
   gap: 30px;
   height: 423px;
+}
+
+.section6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  margin: auto;
+}
+.section6 p:first-child {
+  color: #217BF4;
+  font-size: 18px;
+}
+.section6 .text2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(101, 100, 100);
+  width: 456px;
+  height: 84px;
+  letter-spacing: 1px;
+}
+.section6 .text {
+  font-size: 42px;
+  font-weight: 700;
+  width: 456px;
+  height: 96px;
+}
+.section6 img {
+  width: 740px;
+  height: 534px;
+}
+.section6 {
+  background-color: rgb(229, 240, 253);
 }/*# sourceMappingURL=style.css.map */

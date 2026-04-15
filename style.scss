@@ -108,6 +108,8 @@ header {
     align-items: center;
     justify-content: center;
     gap: 250px;
+    max-width: 1440px;
+    margin: auto;
 
 
     p:first-child {
@@ -327,4 +329,39 @@ header {
     align-items: center;
     gap: 30px;
     height: 423px;
+}
+.section6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    margin: auto;
+
+
+    p:first-child {
+        color: $mainColor;
+        font-size: 18px;
+    }
+
+    .text2 {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgba(101, 100, 100, 1);
+        width: 456px;
+        height: 84px;
+        letter-spacing: 1px;
+    }
+
+    .text {
+        font-size: 42px;
+        font-weight: 700;
+        width: 456px;
+        height: 96px;
+
+    }
+    img {
+        width: 740px;
+        height: 534px;
+    }
+    background-color: rgba(229, 240, 253, 1);
 }
