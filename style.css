@@ -141,6 +141,58 @@ header input {
   color: rgb(101, 100, 100);
   text-align: center;
 }
+.section3 div {
+  width: 504px;
+  height: 72px;
+  background-color: #f2f7fe;
+  border-radius: 14px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.section3 div .btn {
+  width: 150px;
+  height: 56px;
+  border: none;
+  background-color: #f2f7fe;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 14px;
+}
+.section3 div .btn:hover {
+  background-color: rgb(33, 123, 244);
+  color: white;
+  box-shadow: 0px 7px 22px rgba(0, 72, 168, 0.34);
+}
+.section3 div .btn2 {
+  width: 150px;
+  height: 56px;
+  border: none;
+  background-color: #f2f7fe;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 14px;
+}
+.section3 div .btn2:hover {
+  background-color: rgb(33, 123, 244);
+  color: white;
+  box-shadow: 0px 7px 22px rgba(0, 72, 168, 0.34);
+}
+.section3 div .btn3 {
+  width: 150px;
+  height: 56px;
+  border: none;
+  background-color: rgb(33, 123, 244);
+  outline: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 14px;
+  box-shadow: 0px 7px 22px rgba(0, 72, 168, 0.34);
+}
 .section3 {
   padding-bottom: 150px;
 }
@@ -154,6 +206,7 @@ header input {
   row-gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 150px;
 }
 .section4 .card {
   width: 522px;
@@ -174,4 +227,54 @@ header input {
   font-weight: 400;
   width: 315px;
   height: 52px;
+}
+
+.section5 .card2 {
+  width: 270px;
+  height: 316px;
+  box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  border-radius: 14px;
+}
+.section5 .card2 h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.section5 .card2 p:last-child {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(101, 100, 100);
+}
+.section5 .card3 {
+  width: 270px;
+  height: 316px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  border: 2px solid rgba(243, 243, 243, 0.5);
+  border-radius: 14px;
+}
+.section5 .card3 h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.section5 .card3 p:last-child {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(101, 100, 100);
+}
+.section5 {
+  display: flex;
+  max-width: 1440px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 423px;
 }/*# sourceMappingURL=style.css.map */
