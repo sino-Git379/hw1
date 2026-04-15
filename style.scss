@@ -281,6 +281,7 @@ header {
         }
     }
 }
+
 .section5 {
     .card2 {
         width: 270px;
@@ -292,16 +293,19 @@ header {
         align-items: center;
         row-gap: 10px;
         border-radius: 14px;
+
         h2 {
             font-size: 24px;
             font-weight: 600;
         }
+
         p:last-child {
             font-size: 16px;
             font-weight: 400;
             color: rgba(101, 100, 100, 1);
         }
     }
+
     .card3 {
         width: 270px;
         height: 316px;
@@ -312,16 +316,19 @@ header {
         row-gap: 10px;
         border: 2px solid rgba(243, 243, 243, 0.5);
         border-radius: 14px;
+
         h2 {
             font-size: 24px;
             font-weight: 600;
         }
+
         p:last-child {
             font-size: 16px;
             font-weight: 400;
             color: rgba(101, 100, 100, 1);
         }
     }
+
     display: flex;
     max-width: 1440px;
     margin: auto;
@@ -330,6 +337,7 @@ header {
     gap: 30px;
     height: 423px;
 }
+
 .section6 {
     display: flex;
     align-items: center;
@@ -359,31 +367,40 @@ header {
         height: 96px;
 
     }
+
     img {
         width: 740px;
         height: 534px;
     }
+
     background-color: rgba(229, 240, 253, 1);
 }
+
 .section7 {
     display: flex;
     justify-content: center;
+    position: relative;
     gap: 70px;
     max-width: 1440px;
     margin: auto;
     height: 450px;
+    padding-bottom: 150px;
+
     .card4 {
         width: 340px;
         height: 459px;
+
         p {
-            font-size:20px;
+            font-size: 20px;
             font-weight: 600;
         }
+
         p:last-child {
             font-size: 16px;
             font-weight: 400;
             color: rgba(101, 100, 100, 1);
         }
+
         div {
             img {
                 border-radius: 14px;
@@ -391,4 +408,76 @@ header {
         }
 
     }
+
+    .dec {
+        position: absolute;
+        top: -50px;
+        left: 78px;
+    }
+
+    .dec2 {
+        position: absolute;
+        top: 150px;
+        left: 1257px;
+    }
+}
+
+footer {
+    max-width: 1540px;
+    margin: auto;
+    height: 485px;
+    background-color: rgba(43, 43, 57, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    .links {
+        display: flex;
+        gap: 30px;
+        color: white;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 500;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .addres {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        h2 {
+            font-size: 40px;
+            font-weight: 500;
+            color: white;
+        }
+
+        p {
+            color: white;
+            width: 299px;
+        }
+
+        input {
+            width: 339px;
+            height: 48px;
+            border: 1px solid rgba(255, 255, 255, 0.85);
+            font-size: 14px;
+            padding-left: 10px;
+            background-color: rgba(43, 43, 57, 1);
+            border-radius: 12px;
+            color: white;
+
+        }
+    }
+
+}
+.footer2 {
+    background-color: rgba(32, 32, 45, 1);  
+    max-width: 1540px;
+    margin: auto;
+    height: 34px;
 }
