@@ -1,0 +1,178 @@
+$mainColor: #217BF4;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@mixin container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+@mixin buttons {
+    padding: 15px 40px;
+    font-size: 18px;
+    background-color: $mainColor;
+    border: none;
+    border-radius: 10px;
+    color: white
+}
+
+@mixin text {
+    font-size: 42px;
+    font-weight: 700;
+    width: 456px;
+    height: 96px;
+}
+
+@mixin text2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(101, 100, 100, 1);
+    width: 456px;
+    height: 84px;
+    letter-spacing: 1px;
+
+}
+
+header {
+    @include container();
+
+    div {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+    input {
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+    }
+}
+
+.section1 {
+    background: linear-gradient(to top, rgba(212, 231, 254, 1), rgba(255, 255, 255, 1));
+    @include container();
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+
+        h1 {
+            font-size: 55px;
+        }
+
+        p {
+            font-size: 22px;
+            color: gray;
+        }
+
+        button {
+            @include buttons();
+            background-color: #E9F2FE;
+            color: $mainColor;
+        }
+
+        div {
+            button {
+                @include buttons;
+            }
+
+            button:last-child {
+                @include buttons;
+                border: 1px solid $mainColor;
+                color: $mainColor;
+                background-color: white;
+            }
+        }
+    }
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+
+
+    p:first-child {
+        color: $mainColor;
+        font-size: 18px;
+    }
+
+    .text2 {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgba(101, 100, 100, 1);
+        width: 456px;
+        height: 84px;
+        letter-spacing: 1px;
+    }
+
+    .text {
+        font-size: 42px;
+        font-weight: 700;
+        width: 456px;
+        height: 96px;
+
+    }
+
+    ul {
+        font-size: 24px;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .imgs {
+        width: 550px;
+        height: 550px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .img2 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+}
+
+.section3 {
+    p {
+        color: $mainColor;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+
+    }
+    h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+    }
+    h3 {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(101, 100, 100, 1);
+        text-align: center;
+    }
+}
