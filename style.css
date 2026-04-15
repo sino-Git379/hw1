@@ -140,4 +140,38 @@ header input {
   font-weight: 400;
   color: rgb(101, 100, 100);
   text-align: center;
+}
+.section3 {
+  padding-bottom: 150px;
+}
+
+.section4 {
+  max-width: 1440px;
+  height: 576px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  row-gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section4 .card {
+  width: 522px;
+  height: 182px;
+  border-radius: 14px;
+  box-shadow: 14px 22px 52px rgba(127, 127, 127, 0.13);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.section4 .card div:last-child h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.section4 .card div:last-child h4 {
+  font-size: 16px;
+  font-weight: 400;
+  width: 315px;
+  height: 52px;
 }/*# sourceMappingURL=style.css.map */
